@@ -10,15 +10,15 @@ https://auth0.com/docs/quickstart/backend/laravel/interactive
 
 If you already have existing auth0 app and api - Export Existing Auth0 Configuration (run inside backend catalog) \
 1. List your existing apps and find the one you want: \
-```./auth0 apps list``` \
+```./auth0 apps list``` 
 2. Export your existing app's details to the config file: \
 ./auth0 apps show <YOUR_APP_CLIENT_ID> --json --reveal-secrets > .auth0.app.json \
 3. List your existing APIs: \
-./auth0 apis list \
+```./auth0 apis list```
 4. Export your existing API's details to the config file: \
-./auth0 apis show <YOUR_API_ID> --json > .auth0.api.json \
+```./auth0 apis show <YOUR_API_ID> --json > .auth0.api.json``` \
 5. Add the config files to .gitignore: \
-echo ".auth0.*.json" >> .gitignore\
+```echo ".auth0.*.json" >> .gitignore```
 
 Copy from .env.example to .env in frontend catalog \
 VITE_AUTH0_DOMAIN= \
