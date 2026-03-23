@@ -35,4 +35,4 @@ Laravel – First Run (in base catalog) \
 ```docker compose exec backend cp .env.example .env``` \
 ```docker compose exec backend php artisan key:generate```
 
-You can see project under address: http://localhost:5173
+You can see project on address: http://localhost:5173 in your browser
